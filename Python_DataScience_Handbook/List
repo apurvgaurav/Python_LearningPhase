@@ -2,4 +2,8 @@ L = list(range(10))
 print (L)
 print (type (L))
 
+L2 = [str(c) for c in L]
+print (type(L2))
 
+L3 = [True, "2", 3.0, 4]
+L3 = [type(item for item in L3)]
