@@ -1,0 +1,5 @@
+L = list(range(10))
+print (L)
+print (type (L))
+
+
